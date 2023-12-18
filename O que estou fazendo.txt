@@ -1,0 +1,5 @@
+Estou utilizando o Canvas para criar desenhos dentro do código,
+utilizei também alguns prefixos para rodar a imagem e fazer com que isso seja o mais compativel possivel com outros navegadores, ex:
+-ms; -o; -moz; -webkit;
+Também criei uma animação utilizando css para fazer rodar e pulsar
+responsividade com css

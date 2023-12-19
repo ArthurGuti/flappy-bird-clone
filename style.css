@@ -93,12 +93,8 @@ canvas {
   }
   body {margin: 0;}
   #devArthur {
-    width: 9em;
-    height: 13em;
-    position: fixed;
-    margin-top: 26em;
-    border: none;
-    animation: ef-pulse-grow 1.5s infinite;
+    width: 0em;
+    height: 0em;
   }
 }
 
@@ -113,12 +109,8 @@ canvas {
   }
   body {margin: 0;}
   #devArthur {
-    width: 9em;
-    height: 13em;
-    position: fixed;
-    margin-top: 24em;
-    border: none;
-    animation: ef-pulse-grow 1.5s infinite;
+    width: 0em;
+    height: 0em;
   }
 }
 
@@ -134,12 +126,8 @@ canvas {
   }
   body {margin: 0;}
   #devArthur {
-    width: 9em;
-    height: 13em;
-    position: fixed;
-    margin-top: 30em;
-    border: none;
-    animation: ef-pulse-grow 1.5s infinite;
+    width: 0em;
+    height: 0em;
   }
 }
 

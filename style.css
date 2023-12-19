@@ -81,8 +81,8 @@ canvas {
 } */
 
 /* * For mobile phones: */
-@media only screen and (max-width: 440px) {
-  /* For tablets: */
+@media only screen and (max-width: 330px) {
+  /* For phones SM: */
   #celular {width:0%;}
   canvas {
     width: 100%; 
@@ -96,13 +96,49 @@ canvas {
     width: 9em;
     height: 13em;
     position: fixed;
-    margin-left: 2em;
     margin-top: 26em;
-    -webkit-transform: rotate(7deg);
-    -moz-transform: rotate(7deg);
-    -o-transform: rotate(7deg);
-    -ms-transform: rotate(7deg);
-    transform: rotate(7deg);
+    border: none;
+    animation: ef-pulse-grow 1.5s infinite;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  /* For Phones MG: */
+  #celular {width:0%;}
+  canvas {
+    width: 100%; 
+    border-radius: 0;
+    margin: 0;
+    border: 0em;
+  }
+  body {margin: 0;}
+  #devArthur {
+    width: 9em;
+    height: 13em;
+    position: fixed;
+    margin-top: 24em;
+    border: none;
+    animation: ef-pulse-grow 1.5s infinite;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  /* For Phones MG: */
+  #celular {width:0%;}
+  canvas {
+    width: 100%; 
+    height: 42em;
+    border-radius: 0;
+    margin: 0;
+    border: 0em;
+  }
+  body {margin: 0;}
+  #devArthur {
+    width: 9em;
+    height: 13em;
+    position: fixed;
+    margin-top: 30em;
+    border: none;
     animation: ef-pulse-grow 1.5s infinite;
   }
 }
